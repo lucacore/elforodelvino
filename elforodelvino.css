@@ -1,0 +1,124 @@
+
+
+body{
+	background-color: black;
+	font-family: arial;
+}
+h1{
+	text-align: center;
+	color: #6f16c2;
+	font-size: 100px;
+}
+h4{
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	color: #6f16c2;
+}
+h3{
+	text-align: center;
+	color: pink;
+}
+
+
+p{
+	text-align: center;
+	background-color: #da6464;
+	color: #6f16c2;
+	font-size: 60px;
+	margin: 2% 0% 0% 0%;
+
+}
+img{
+	
+	
+
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+.botonera{
+	max-width: 1000px;
+	list-style-type: none;
+	margin: 20px auto;
+	overflow: auto;
+}
+
+.botonera a{
+	background-color: #cdc72b;
+	
+	display: block;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	
+	width: 25%;
+	float: left;
+}
+.botonera a:hover{
+	background-color: #440197;
+	font-size: 18px;
+	color: #cdc72b;
+}
+.contenedor{
+	max-width: 500px;
+	max-height: 500px;
+	position: relative;
+				
+}
+.contenedor div{
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+	
+	border: 2px solid #333;
+	
+	background-color: #800;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 200px;
+}
+
+.carousel{
+	max-width: 600px;
+	margin: 50px auto;
+}
+
+.carousel img{
+	width: 100%;
+}
+
+
+.pie{
+	clear: both;
+	overflow: auto;
+	box-sizing: border-box;
+	background-color: #da6464;
+	display: flex;
+			
+			
+}
+.pie img{
+	width: 100px;
+	height: 50px;
+	float: left;
+	margin: 0% 50% 0% 30%;
+			
+}
+			
+.pie-insta{
+	float: left;
+}
+.contacto{
+	max-width: 600px;
+}
